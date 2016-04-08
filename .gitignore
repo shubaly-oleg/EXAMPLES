@@ -1,0 +1,13 @@
+*.log
+log
+build
+dist
+target
+nbproject
+.idea
+*.iml
+.settings
+.project
+.classpath
+build.xml
+manifest.mf
