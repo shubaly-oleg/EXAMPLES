@@ -6,7 +6,7 @@ public class PrintArrguments
     {
         int i = 0; 
     	for (String str : args) {
-        	System.out.printf("Аргумент %02d-> %s%n", i++, str);
+        	System.out.printf("Аргумент %02d -> %s%n", i++, str);
 		}
     }
 }
