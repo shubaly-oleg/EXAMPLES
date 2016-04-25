@@ -10,9 +10,9 @@ public class DemoGeneric {
 		list.add("Java"); //компилятор "знает" допустимый тип передаваемого значения
 		list.add("JavaFX 2");
 		String res = list.get(0); //компилятор "знает"допустимый тип возвращаемого значения
-		System.out.println(res); // удобный вывод
+		System.out.println(res); // вывод перевого (индекс - 0) элемента коллекции
 		// list.add(new StringBuilder("C#")); // ошибка компиляции - компилятор не позволит 
 		// добавить "посторонний" тип
-		System.out.println(list); // удобный вывод
+		System.out.println(list); // вся коллекция
 	}
 }
