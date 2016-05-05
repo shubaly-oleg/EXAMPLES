@@ -11,7 +11,7 @@ public class RunIterator {
 		ArrayList<Order> orders = new ArrayList<Order>() {
 			{
 				add(new Order(231, 12.f));
-				add(new Order(389, 2.9f));
+				add(new Order(389, 22.9f));
 				add(new Order(217, 1.7f));
 			}
 		};

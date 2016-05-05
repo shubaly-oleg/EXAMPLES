@@ -9,7 +9,7 @@ public class DemoHashSet {
 		long callTime = System.nanoTime();
 		Scanner scan = null;
 		try {
-			scan = new Scanner(new File("texts\\nabokov.txt"));
+			scan = new Scanner(new File("texts\\textfile1.txt"));
 			scan.useDelimiter("[^А-я]+");
 			while (scan.hasNext()) {
 				String word = scan.next();

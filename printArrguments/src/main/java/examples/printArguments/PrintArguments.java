@@ -1,6 +1,6 @@
-package examples.printArrguments;
+package examples.printArguments;
 
-public class PrintArrguments 
+public class PrintArguments 
 {
     public static void main( String[] args )
     {
